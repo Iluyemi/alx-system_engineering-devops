@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l 11-directories_permissions dir0 dir1 dir2 hello
+chmod -R ugo+X
