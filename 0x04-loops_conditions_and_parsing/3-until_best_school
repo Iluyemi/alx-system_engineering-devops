@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# printing with thw until command
+
+i=0
+until [ "$i" -eq 10 ]
+do
+	echo "Best School"
+	(( i += 1))
+done
